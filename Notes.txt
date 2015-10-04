@@ -1,0 +1,21 @@
+Music definition language:
+
+Example file:
+<Instruments>
+    <Instrument>
+	    <Name>Bass 1</Name>
+		<Parameter>
+		    <Name>Attack</Name>
+			<Value>1.0</Value>
+		</Parameter>
+    </Instrument>
+</Instruments>
+
+<Patterns>
+    <Pattern>
+    </Pattern>
+</Patterns>
+
+<Song>
+
+</Song>
