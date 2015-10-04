@@ -1,0 +1,57 @@
+<!-- Music definition language. Example file: -->
+<Instruments>
+    <Instrument>
+		<ID>1</ID>
+	    <Name>Bass 1</Name>
+		<Reference>Synthesizers.ImageLine.Sytrus</Reference>
+		<Parameter>
+		    <Name>Attack</Name>
+			<Value>1.0</Value>
+		</Parameter>
+    </Instrument>
+	<Instrument>
+		<ID>2</ID>
+	    <Name>Bass 1</Name>
+		<Reference>Synthesizers.ImageLine.Harmor</Reference>
+		<Parameter>
+		    <Name>Attack</Name>
+			<Value>1.0</Value>
+		</Parameter>
+		<Parameter>
+		    <Name>Decay</Name>
+			<Value>1.0</Value>
+		</Parameter>
+		<Parameter>
+		    <Name>Sustain</Name>
+			<Value>1.0</Value>
+		</Parameter>
+		<Parameter>
+		    <Name>Release</Name>
+			<Value>1.0</Value>
+		</Parameter>
+    </Instrument>
+</Instruments>
+
+<Patterns>
+    <Pattern ID="1">
+		<Instrument ID="1">
+			<Note>
+				<Velocity>108</Velocity>
+				<Tick>150</Tick>
+			</Note>
+			<Note>
+				<Velocity>115</Velocity>
+				<Tick>180</Tick>
+			</Note>
+			<Note>
+				<Velocity>108</Velocity>
+				<Tick>170</Tick>
+			</Note>
+		</Instrument>
+    </Pattern>
+</Patterns>
+
+<Song>
+	<Pattern ID="1" Tick="100" />
+	<Pattern ID="1" Tick="150" />
+</Song>
